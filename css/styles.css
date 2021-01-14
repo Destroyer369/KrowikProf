@@ -1,0 +1,125 @@
+main {
+  height: 150px;
+}
+
+h1 {
+  padding-top: 50px;
+  margin: 0;
+  font-family : 'Kumbh Sans', sans-serif;
+}
+
+h2 {
+  font-family : 'Kumbh Sans', sans-serif;
+}
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+div {
+  display: block;
+}
+
+body {
+  background-color: #a685e2;
+  display: flex;
+    height: 100vh;
+    background-image: url(images/cucumber.png), url(images/tomato.png), url(images/font1.png);
+    background-position: top 0px left 0px, bottom 0px right 0px;
+    background-size: 800px, 800px, 100% ;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Kumbh Sans', sans-serif;
+    color: #ffcc29;
+
+}
+
+article {
+  width: 320px;
+  height: 370px;
+  margin: auto ;
+  margin: auto ;
+  border: 0.1px solid #eff8ff;
+  background-color: #eff8ff;
+  background-image: url(images/article.png);
+  background-position: bottom 0px left 0px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  flex-direction:column;
+  box-shadow: 0 1px 50px -10px hsl(229, 23%, 23%);
+  border-radius: 15px;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+  text-align: center;
+  border-top: solid 1px #ddd;
+  height: 50%;
+  width: 100%;
+  padding-top: 0px;
+  padding-bottom: 10px;
+}
+
+.stats_big {
+    margin: 8px 0;
+  }
+
+.stats_small {
+    display: block;
+    margin: 0;
+    color: #ffd56b;
+    font-weight: 400;
+    font-size: 10px;
+    letter-spacing: 1.5px;
+  }
+
+.profile {
+  margin-top: 99px;
+  border-radius: 60px;
+  border: white 5px solid;
+}
+
+.city {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 14px;
+    margin: 0;
+    padding-bottom: 15px;
+}
+
+.age, .city {
+    font-weight: 400;
+    color: #ffd56b;
+}
+
+
+.name {
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 0;
+}
+
+
+.photofont {
+  margin:auto;
+}
+
+.profile {
+  width: 110px;
+  height: 117px;
+  margin-top: 89px;
+  margin-left: 30%;
+  border-radius: 60px;
+  border: white 5px solid;
+}
