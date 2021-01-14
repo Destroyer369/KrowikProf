@@ -31,7 +31,7 @@ body {
   display: flex;
     height: 100vh;
     background-image: url(images/cucumber.png), url(images/tomato.png), url(images/font1.png);
-    background-position: top 0px left 0px, bottom 0px right 0px;
+    background-position: top 0px left 0px, bottom 0px right 0px,top 0px left 0px;
     background-size: 800px, 800px, 100% ;
     background-repeat: no-repeat;
     display: flex;
